@@ -1,8 +1,8 @@
 # neo4j-demo
 
-## connection
+## 1.neo4j 的连接
 
-1. 使用 spring boot 连接 neo4j
+1.1 使用 spring boot 连接 neo4j
 >- gradle 配置:
 ```
 compile: 'org.springframework.boot:spring-boot-starter-data-neo4j'       
