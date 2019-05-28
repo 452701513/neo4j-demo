@@ -3,11 +3,11 @@
 ## 1. neo4j的连接
 
 1.1 使用 spring boot 连接 neo4j <br/><br/>
-gradle 配置:
+build.gradle 配置:
 ```
 compile: 'org.springframework.boot:spring-boot-starter-data-neo4j'       
 ```
-application 配置：
+application.yml 配置：
 ```
 spring:
   data:
