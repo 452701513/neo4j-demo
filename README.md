@@ -9,7 +9,7 @@ compile: 'org.springframework.boot:spring-boot-starter-data-neo4j'
 ```
 application.properties 配置：
 ```
-spring.data.neo4j.uri= bolt:// `ip + port`
-spring.data.neo4j.username= `username`
-spring.data.neo4j.password= `password`
+spring.data.neo4j.uri= bolt:// 127.0.0.1:31101
+spring.data.neo4j.username= username
+spring.data.neo4j.password= password
 ```
