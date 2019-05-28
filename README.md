@@ -1,6 +1,6 @@
 # neo4j-demo
 
-## 1 neo4j的连接
+## 1. neo4j的连接
 
 1.1 使用 spring boot 连接 neo4j
 >- gradle 配置:
