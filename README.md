@@ -7,12 +7,9 @@ build.gradle 配置:
 ```
 compile: 'org.springframework.boot:spring-boot-starter-data-neo4j'       
 ```
-application.yml 配置：
+application.properties 配置：
 ```
-spring:
-  data:
-    neo4j:
-      url:
-      username:
-      password:  
+spring.data.neo4j.uri= bolt:// `ip + port`
+spring.data.neo4j.username= `username`
+spring.data.neo4j.password= `password`
 ```
