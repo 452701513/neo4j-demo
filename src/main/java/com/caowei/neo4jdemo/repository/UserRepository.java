@@ -1,8 +1,12 @@
 package com.caowei.neo4jdemo.repository;
 
+import com.caowei.neo4jdemo.entity.User;
+
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.UUID;
+
 @Repository
-public interface MyNeo4jRepository extends Neo4jRepository {
+public interface UserRepository extends Neo4jRepository<User, UUID> {
 }
