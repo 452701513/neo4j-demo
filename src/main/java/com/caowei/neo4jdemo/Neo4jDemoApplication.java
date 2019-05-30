@@ -3,6 +3,11 @@ package com.caowei.neo4jdemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author caowei
+ * @mail 452701513@qq.com
+ */
+
 @SpringBootApplication
 public class Neo4jDemoApplication {
 

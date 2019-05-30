@@ -13,6 +13,11 @@ import java.util.UUID;
 
 import lombok.Data;
 
+/**
+ * @author caowei
+ * @mail 452701513@qq.com
+ */
+
 @Data
 @NodeEntity()
 public class User {

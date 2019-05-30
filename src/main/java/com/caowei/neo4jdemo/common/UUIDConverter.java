@@ -6,6 +6,11 @@ import java.util.UUID;
 
 import javax.validation.constraints.NotNull;
 
+/**
+ * @author caowei
+ * @mail 452701513@qq.com
+ */
+
 public class UUIDConverter implements AttributeConverter<UUID, String> {
     @Override
     public String toGraphProperty(UUID value) {

@@ -7,6 +7,11 @@ import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
+/**
+ * @author caowei
+ * @mail 452701513@qq.com
+ */
+
 @Repository
 public interface UserRepository extends Neo4jRepository<User, UUID> {
 }
