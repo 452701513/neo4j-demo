@@ -1,5 +1,6 @@
 package com.caowei.neo4jdemo.service;
 
+import com.caowei.neo4jdemo.common.UUIDConverter;
 import com.caowei.neo4jdemo.entity.User;
 import com.caowei.neo4jdemo.repository.UserRepository;
 
@@ -19,7 +20,7 @@ public class UserServer {
     }
 
     public User findByUserId(String id) {
-        return userRepository.findById(UUID.fromString(id)).orElse(null);
+        return userRepository.findById(UUIDConverter.stringToUUID(id)).orElse(null);
     }
 
     public void save(User user) {
