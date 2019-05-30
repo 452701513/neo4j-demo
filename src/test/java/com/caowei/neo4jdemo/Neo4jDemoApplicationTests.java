@@ -24,7 +24,6 @@ public class Neo4jDemoApplicationTests {
         user.setName("小明");
         user.setAge(19);
         user.setGender("男");
-        user.setJob("工程师");
 
         userServer.save(user);
     }
